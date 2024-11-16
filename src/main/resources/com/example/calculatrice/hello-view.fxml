@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="548.0" maxWidth="600.0" minHeight="548.0" minWidth="600.0" prefHeight="548.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculatrice.HelloController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label fx:id="Affichage" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="611.0" style="-fx-background-color: blue;" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Affichage2" alignment="BOTTOM_RIGHT" prefHeight="158.0" prefWidth="724.0" style="-fx-background-color: blue;" text="0" textFill="WHITE">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="206.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="199.0" prefWidth="185.0">
+               <children>
+                  <Label fx:id="bouton1" alignment="CENTER" onMouseClicked="#bouton1Click" prefHeight="97.0" prefWidth="165.0" text="1">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bouton4" alignment="CENTER" onMouseClicked="#bouton4Click" prefHeight="97.0"
+                         prefWidth="165.0" text="4">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="199.0" prefWidth="185.0">
+               <children>
+                  <Label fx:id="bouton2" alignment="CENTER" onMouseClicked="#bouton2Click" prefHeight="97.0" prefWidth="165.0" text="2">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bouton5" alignment="CENTER" onMouseClicked="#bouton5Click" prefHeight="97.0" prefWidth="165.0" text="5">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="199.0" prefWidth="185.0">
+               <children>
+                  <Label fx:id="bouton3" alignment="CENTER" onMouseClicked="#bouton3Click" prefHeight="97.0" prefWidth="165.0" text="3">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bouton6" alignment="CENTER" onMouseClicked="#bouton6Click" prefHeight="97.0" prefWidth="165.0" text="6">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="199.0" prefWidth="185.0">
+               <children>
+                  <Label fx:id="boutonMulti" alignment="CENTER" onMouseClicked="#boutonMultiClick" prefHeight="97.0" prefWidth="165.0" text="*">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="boutonAddi" alignment="CENTER" onMouseClicked="#boutonAddiClick" prefHeight="97.0" prefWidth="165.0" text="+">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
