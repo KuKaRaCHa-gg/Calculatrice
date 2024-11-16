@@ -20,8 +20,6 @@ This is my **first JavaFX project** using **FXML**, where I created a simple cal
 ## 🚀 How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/JavaFX-Calculator.git
 Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 Ensure you have JavaFX properly set up in your environment.
 Run Main.java to start the calculator application.
@@ -32,12 +30,4 @@ Java: The programming language used for the logic and functionality.
 📧 Contact
 Feel free to reach out with any questions or feedback:
 
-Email: your-email@example.com
-GitHub: YourUsername
-✨ This project represents my first step into JavaFX development and mastering UI design with FXML.
 
-
-### Next Steps:
-- Replace `YourUsername` and `your-email@example.com` with your actual GitHub username and email.
-- Add screenshots or GIFs of the calculator in action to make the `README.md` more engaging.
-- Let me know if you want help setting up the repository or any additional edits! 😊
